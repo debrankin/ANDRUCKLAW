@@ -1,0 +1,186 @@
+/* 
+  -----------------------------------
+  Tooltip Magic
+  by Project Seven Development
+  www.projectseven.com
+  Style Theme: 13 Silverstone
+  -----------------------------------
+*/
+
+.p7TTM13.p7TTMbox {
+	position: absolute;
+	overflow: hidden;
+	-webkit-box-shadow: 5px 5px 20px #999;
+	box-shadow: 5px 5px 20px #999;
+	background-image: url(img/p7TTM13-gradient.png);
+	background-repeat: repeat-x;
+	border-radius: 7px;
+	border: 1px solid #000;
+	background-color: #d4d4d4;
+	background-position: 0px -1px;
+}
+.p7TTM13 .p7TTMtop {
+	position: relative;
+}
+.p7TTM13 .p7TTMcnt {
+	position: relative;
+	color:#000;
+	padding: 20px 16px;
+	font-family: Calibri, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	zoom: 1;
+}
+.p7TTM13 .p7TTMcnt p {
+	margin: 6px 0 12px 0;
+}
+.p7TTM13 .p7TTMclose {
+	position: absolute;
+	top: 4px;
+	left: auto;
+	right: 2px;
+	display: none;
+}
+.p7TTM13 .p7TTMclose img {
+	border: 0;
+}
+.p7TTM13 .p7TTMclose a {
+	text-decoration: none;
+	display: block;
+	color: #333;
+	font-size: 18px;
+	line-height: 18px;
+	padding: 0 4px;
+	border-radius: 0px 4px 0px 0px;
+}
+.p7TTM13 .p7TTMclose a:hover, .p7TTM13 .p7TTMclose a:focus {
+	outline: 0;
+	color: #000000;
+	transform: rotate(10deg);
+	-ms-transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+}
+.p7TTM13 .p7TTMclose i {
+	font-style: normal;
+}
+
+/*ARROWS*/
+.p7TTM13 .p7TTMcall {
+	height: 9px;
+	width: 26px;
+	position: absolute;
+	z-index: 9;
+	background-repeat: no-repeat;
+	display: none;
+}
+/*Arrow At Bottom Left*/
+.p7TTM13 .p7TTMcall.p7TTM_Arrow_1 {
+	height: 16px;
+	width: 24px;
+	left: 10px;
+	top: auto;
+	bottom: -17px;
+	background-image: url(img/p7TTMblack-southwest.png);
+}
+/*Arrow At Bottom Middle*/
+.p7TTM13 .p7TTMcall.p7TTM_Arrow_2 {
+	height: 16px;
+	width: 22px;
+	left: 50%;
+	margin-left: -11px;
+	top: auto;
+	bottom: -17px;
+	background-image: url(img/p7TTMblack-south.png);
+}
+/*Arrow At Bottom Right*/
+.p7TTM13 .p7TTMcall.p7TTM_Arrow_3 {
+	height: 16px;
+	width: 24px;
+	left: auto;
+	right: 8px;
+	top: auto;
+	bottom: -17px;
+	background-image: url(img/p7TTMblack-southeast.png);
+}
+/*Arrow At Top Left*/
+.p7TTM13 .p7TTMcall.p7TTM_Arrow_4 {
+	height: 16px;
+	width: 24px;
+	left: 10px;
+	top: -17px;
+	background-image: url(img/p7TTMblack-northwest.png);
+}
+/*Arrow At Top Middle*/
+.p7TTM13 .p7TTMcall.p7TTM_Arrow_5 {
+	height: 18px;
+	width: 20px;
+	left: 50%;
+	margin-left: -11px;
+	top: -11px;
+	background-image: url(img/p7TTMblack-north.png);
+}
+/*Arrow At Top Right*/
+.p7TTM13 .p7TTMcall.p7TTM_Arrow_6 {
+	height: 16px;
+	width: 24px;
+	left: auto;
+	right: 10px;
+	top: -17px;
+	background-image: url(img/p7TTMblack-northeast.png);
+}
+/*Arrow At Left Top*/
+.p7TTM13 .p7TTMcall.p7TTM_Arrow_7 {
+	height: 18px;
+	width: 18px;
+	left: -19px;
+	top: 8px;
+	background-image: url(img/p7TTMblack-duewest.png);
+}
+/*Arrow At Left Middle*/
+.p7TTM13 .p7TTMcall.p7TTM_Arrow_8 {
+	height: 22px;
+	width: 16px;
+	left: -11px;
+	top: 50%;
+	margin-top: -11px;
+	background-image: url(img/p7TTMblack-west.png);
+}
+/*Arrow At Right Top*/
+.p7TTM13 .p7TTMcall.p7TTM_Arrow_9 {
+	height: 20px;
+	width: 18px;
+	left: auto;
+	right: -19px;
+	top: 8px;
+	background-image: url(img/p7TTMblack-dueeast.png);
+}
+/*Arrow At Right Middle*/
+.p7TTM13 .p7TTMcall.p7TTM_Arrow_10 {
+	height: 22px;
+	width: 16px;
+	left: auto;
+	right: -17px;
+	top: 50%;
+	margin-top: -11px;
+	background-image: url(img/p7TTMblack-east.png);
+}
+/*Special Class assigned to All Triggers, regardless of the Tooltip Style Theme, while its tooltip is showing.*/
+.p7TTM_open {}
+
+/*Special Class assigned to All Triggers, regardless of the Tooltip Style Theme, when using the Basic Interface.*/
+.p7TTM_trg {
+	text-decoration: none;
+}
+/*Special Class you can use to assign to various trigger elements when using the class assignment method to define a tooltip.*/
+.tooltip {}
+
+/*Lighshow Overlay*/
+#p7ttm_overlay.p7TTM13 {
+	background-color: #EEE;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+
+/*IE 7 and 6 fixes*/
+.p7TTMtop, .p7TTMbottom,
+.p7TTMmiddlewrapper {zoom: 1;}

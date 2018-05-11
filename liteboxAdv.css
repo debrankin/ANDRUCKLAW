@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.wufoo label.desc, .wufoo legend.desc {
+	padding-bottom: 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+h2 {
+	font-color:#66090B;
+}
+body {
+	background-color: transparent;	
+}

@@ -1,0 +1,182 @@
+/* 
+  -----------------------------------
+  Tooltip Magic
+  by Project Seven Development
+  www.projectseven.com
+  Style Theme: 11 Black Silk
+  -----------------------------------
+*/
+
+.p7TTM11.p7TTMbox {
+	position: absolute;
+	overflow: hidden;
+	border: 3px solid #000;
+	border-radius: 3px;
+	background-color: #000;
+	background: rgba(0,0,0,.9);
+	-webkit-box-shadow: 6px 6px 20px #222;
+	box-shadow: 0px 0px 20px #222;
+}
+.p7TTM11 .p7TTMtop {
+	position: relative;
+}
+.p7TTM11 .p7TTMcnt {
+	position: relative;
+	color:#BBB;
+	padding: 16px 16px;
+	font-family: Calibri, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	zoom: 1;
+}
+.p7TTM11 .p7TTMcnt p {
+	margin: 6px 0 12px 0;
+}
+
+.p7TTM11 .p7TTMclose {
+	position: absolute;
+	top: 2px;
+	left: auto;
+	right: 0px;
+	display: none;
+}
+.p7TTM11 .p7TTMclose img {
+	border: 0;
+}
+.p7TTM11 .p7TTMclose a {
+	text-decoration: none;
+	display: block;
+	color: #BBB;
+	font-size: 17px;
+	line-height: 17px;
+	padding: 0 4px;
+	border-radius: 0px 4px 0px 0px;
+}
+.p7TTM11 .p7TTMclose a:hover, .p7TTM11 .p7TTMclose a:focus {
+	outline: 0;
+	color: #FFFFFF;
+}
+.p7TTM11 .p7TTMclose i {
+	font-style: normal;
+}
+
+
+/*ARROWS*/
+.p7TTM11 .p7TTMcall {
+	height: 9px;
+	width: 26px;
+	position: absolute;
+	z-index: 9;
+	background-repeat: no-repeat;
+	display: none;
+}
+/*Arrow At Bottom Left*/
+.p7TTM11 .p7TTMcall.p7TTM_Arrow_1 {
+	height: 16px;
+	width: 24px;
+	left: 10px;
+	top: auto;
+	bottom: -16px;
+	background-image: url(img/p7TTMblack-southwest.png);
+}
+/*Arrow At Bottom Middle*/
+.p7TTM11 .p7TTMcall.p7TTM_Arrow_2 {
+	height: 16px;
+	width: 22px;
+	left: 50%;
+	margin-left: -11px;
+	top: auto;
+	bottom: -18px;
+	background-image: url(img/p7TTMblack-south.png);
+}
+/*Arrow At Bottom Right*/
+.p7TTM11 .p7TTMcall.p7TTM_Arrow_3 {
+	height: 16px;
+	width: 24px;
+	left: auto;
+	right: 8px;
+	top: auto;
+	bottom: -16px;
+	background-image: url(img/p7TTMblack-southeast.png);
+}
+/*Arrow At Top Left*/
+.p7TTM11 .p7TTMcall.p7TTM_Arrow_4 {
+	height: 18px;
+	width: 24px;
+	left: 10px;
+	top: -18px;
+	background-image: url(img/p7TTMblack-northwest.png);
+}
+/*Arrow At Top Middle*/
+.p7TTM11 .p7TTMcall.p7TTM_Arrow_5 {
+	height: 16px;
+	width: 22px;
+	left: 50%;
+	margin-left: -11px;
+	top: -12px;
+	background-image: url(img/p7TTMblack-north.png);
+}
+/*Arrow At Top Right*/
+.p7TTM11 .p7TTMcall.p7TTM_Arrow_6 {
+	height: 18px;
+	width: 24px;
+	left: auto;
+	right: 10px;
+	top: -18px;
+	background-image: url(img/p7TTMblack-northeast.png);
+}
+/*Arrow At Left Top*/
+.p7TTM11 .p7TTMcall.p7TTM_Arrow_7 {
+	height: 20px;
+	width: 18px;
+	left: -18px;
+	top: 8px;
+	background-image: url(img/p7TTMblack-duewest.png);
+}
+/*Arrow At Left Middle*/
+.p7TTM11 .p7TTMcall.p7TTM_Arrow_8 {
+	height: 22px;
+	width: 18px;
+	left: -12px;
+	top: 50%;
+	margin-top: -11px;
+	background-image: url(img/p7TTMblack-west.png);
+}
+/*Arrow At Right Top*/
+.p7TTM11 .p7TTMcall.p7TTM_Arrow_9 {
+	height: 20px;
+	width: 18px;
+	left: auto;
+	right: -16px;
+	top: 8px;
+	background-image: url(img/p7TTMblack-dueeast.png);
+}
+/*Arrow At Right Middle*/
+.p7TTM11 .p7TTMcall.p7TTM_Arrow_10 {
+	height: 22px;
+	width: 18px;
+	left: auto;
+	right: -20px;
+	top: 50%;
+	margin-top: -11px;
+	background-image: url(img/p7TTMblack-east.png);
+}
+/*Special Class assigned to All Triggers, regardless of the Tooltip Style Theme, while its tooltip is showing.*/
+.p7TTM_open {}
+
+/*Special Class assigned to All Triggers, regardless of the Tooltip Style Theme, when using the Basic Interface.*/
+.p7TTM_trg {
+	text-decoration: none;
+}
+/*Special Class you can use to assign to various trigger elements when using the class assignment method to define a tooltip.*/
+.tooltip {}
+
+/*Lighshow Overlay*/
+#p7ttm_overlay.p7TTM11 {
+	background-color: #CCC;
+	opacity: 0.9;
+	filter: alpha(opacity=90);
+}
+
+/*IE 7 and 6 fixes*/
+.p7TTMtop, .p7TTMbottom,
+.p7TTMmiddlewrapper {zoom: 1;}

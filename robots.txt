@@ -1,0 +1,8 @@
+Sitemap: http://www.andruckilaw.com/sitemap.xml
+User-Agent: *
+  Allow: /
+  Disallow:/test/
+  Disallow: /Templates/
+  Disallow: /site-archive/
+  Disallow: /new2
+  Disallow: /new2

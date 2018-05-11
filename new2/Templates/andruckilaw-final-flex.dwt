@@ -1,0 +1,244 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Andrucki & Associates</title>
+<meta property="fb:admins" content="debrankin55" />
+<meta property="og:image" content="http://www.andruckilaw.com/images/">
+<meta property="og:title" content="Andrucki & Associates Attorneys at Law"/>
+<meta property="og:url" content="http://www.andruckilaw.com/index.php"/>
+<meta property="og:site_name" content="Andrucki & Associates"/>
+<meta property="og:type" content="website"/>
+<meta property="og:description" content="Andrucki & Associates represents clients in all areas of Family Law including divorce, parental rights, post-judgment matters, preparation of prenuptial agreements and alternate dispute resolution. Centrally located in Lewiston, Maine, we practice in Androscoggin, Cumberland, Sagadahoc, Kennebec, Oxford and Franklin Counties, as well as other counties at our discretion. " />
+<meta name="keywords" content="marital, child, husband, wife, partner, same-sex, family, attorney, lawyer, visitation, custody, gay, residency, divorce, residential schedule, support, child support, protection, protection from abuse, separation, dispute, alimony, parent/child contact, decision-making, child support, bossy, bulldog, pitbull, directive, aggressive, consultation." />
+<!-- TemplateEndEditable -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="../p7ehc/p7EHCscripts.js"></script>
+<link href="http://fonts.googleapis.com/css?family=Federo" rel="stylesheet" type="text/css">
+<!--[if lte IE 7]>
+<style>
+body {min-width: 1020px;}
+.columns-wrapper, .menu-top-wrapper, .p7dmm-sub-wrapper {width: 980px;}
+</style>
+<![endif]-->
+<!-- Accordion panels  -->
+<link href="../p7ap3/p7AP3-10.css" rel="stylesheet" type="text/css" media="all">
+<link href="../p7ap3/p7ap3-columns.css" rel="stylesheet" type="text/css" media="all">
+<script type="text/javascript" src="../p7ap3/p7AP3scripts.js"></script>
+<!-- END accordion panels -->
+<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap-responsive.css" />
+<script type="text/javascript" src="../bootstrap/js/bootstrap.js"></script>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/clara:n4:default;sofia:n4:default;allura:n4:default;lobster-two:n4:default.js" type="text/javascript"></script>
+<!--end fonts   -->
+<!-- DROP DOWN MENU-->
+<!--END DROP DOWN -->
+<!-- PAGE STYLES-->
+<link href="../p7affinity/p7affinity-1_03.css" rel="stylesheet" type="text/css">
+<link href="../p7affinity/p7affinity_print.css" rel="stylesheet" type="text/css" media="print">
+<!--end page styles  -->
+<!-- jQuery library -->
+<script type="text/javascript">
+$(function() {
+	$(window).scroll(function() {
+		if($(this).scrollTop() != 0) {
+			$('#backtotop').fadeIn();	
+		} else {
+			$('#backtotop').fadeOut();
+		}
+	});
+ 
+	$('#backtotop').click(function() {
+		$('body,html').animate({scrollTop:0},800);
+	});	
+});
+</script>
+<script>
+	$(function() {
+	  $('a[href*=#]:not([href=#])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+	      var target = $(this.hash);
+	      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      if (target.length) {
+	        $('html,body').animate({
+	          scrollTop: target.offset().top
+	        }, 1000);
+	        return false;
+	      }
+	    }
+	  });
+	});
+	</script>
+<!-- end jquery lib -->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,300,700,800' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="../includes/extendjQuery.js"></script>
+<script type="text/javascript" src="../includes/FlexiMenus2/fleximenus2.js"></script>
+<link href="../includes/FlexiMenus2/CSSMenu_CSSMenu1.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=269315189915408";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="masthead">
+<div class="logo"><img src="../images/Andrucki_logo_for_PBS_1.png" width="325" height="82"  alt=""></div>
+<div class="address">
+  <img src="../images/address1.png" width="330" height="37" alt=""/><br>
+  <div style="padding-bottom: 3px; padding-top: 3px;">Reach us at:&nbsp; (207) 777- 4600&nbsp; <img src="../images/facebook-white-trans.png" width="40" height="36" alt=""/>&nbsp; <img src="../images/twitter.png" width="40" height="36" alt=""/></div></div>
+<div class="clearfloat"></div>
+</div>
+  <div class="top-navigation">
+    <div class="menu-top-wrapper"><div id="CSSMenu1_container" class="FM2_CSSMenu1_container" style="display:block">
+<ul id="CSSMenu1" class="FM2_CSSMenu1">
+	<!-- version=2.0.217;name=CSSMenu1;baseskin=skin09;colorscheme=dark_purple;type=tabbed; -->
+	<li>
+	<a href="#" target="_self"><font class="leaf">Home</font></a>
+	</li>
+	<li>
+	<a href="#" target="_self"><font class="leaf">About</font></a>
+	</li>
+	<li>
+		<a href="#" target="_self"><span class="branch">Services</span></a>
+		<ul>
+			<li>
+			<a href="#" target="_self"><font class="leaf">Service&nbsp;One</font></a>
+			</li>
+			<li>
+				<a href="#" target="_self"><span class="branch">Service&nbsp;Two</span></a>
+				<ul>
+					<li>
+						<a href="#" target="_self"><span class="branch">Menu Item 1</span></a>
+						<ul>
+							<li>
+							<a href="#" target="_self"><font class="leaf">Sub Menu Item 1</font></a>
+							</li>
+							<li>
+							<a href="#" target="_self"><font class="leaf">Sub Menu Item 2</font></a>
+							</li>
+							<li>
+							<a href="#" target="_self"><font class="leaf">Sub Menu Item 3</font></a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" target="_self"><span class="branch">Menu Item 2</span></a>
+						<ul>
+							<li>
+							<a href="#" target="_self"><font class="leaf">Sub Menu Item 1</font></a>
+							</li>
+							<li>
+							<a href="#" target="_self"><font class="leaf">Sub Menu Item 2</font></a>
+							</li>
+							<li>
+							<a href="#" target="_self"><font class="leaf">Sub Menu Item 3</font></a>
+							</li>
+						</ul>
+					</li>
+					<li>
+					<a href="#" target="_self"><font class="leaf">Menu Item 3</font></a>
+					</li>
+					<li>
+					<a href="#" target="_self"><font class="leaf">Menu Item 4</font></a>
+					</li>
+				</ul>
+			</li>
+			<li>
+			<a href="#" target="_self"><font class="leaf">Service&nbsp;Three</font></a>
+			</li>
+		</ul>
+	</li>
+	<li>
+	<a href="#" target="_self"><font class="leaf">Blog</font></a>
+	</li>
+	<li>
+	<a href="#" target="_self"><font class="leaf">Contact</font></a>
+	</li>
+</ul>
+
+<script type="text/javascript">registerFlexiCSSMenu("CSSMenu1", {"menuType":"tabbed","effectSub":{"name":"slide","direction":"up","duration":250,"easing":"swing","useFade":true},"effectRest":{"name":"slide","direction":"up","duration":250,"easing":"swing","useFade":true},"effectSubTwo":{"name":"slide","direction":"left","duration":250,"easing":"swing","useFade":true},"options":{"preset":"fixed","enableTablet":true,"enableMobile":true,"mobileMaxWidth":640,"tabletMaxWidth":1023,"tabletCloseBtnLabel":"Close","tabletCloseBtnEnable":true,"align":"left"},"stickToTop":true,"takeBrowserWidth":true});
+</script>
+</div>
+
+<a class="FM2_mobile_button" id="FM2_CSSMenu1_mobile_button"><span class="caption">Menu</span></a>
+ </div>
+  </div><div style="clear:both;"></div>
+<div class="content-wrapper">
+  <div class="columns-wrapper">
+   <div class="assoc_name">Specializing in Family Law</div>
+   <div class="main-content"><!-- TemplateBeginEditable name="left-content" -->
+      <div class="content p7ehc-1">
+        <p>Andrucki & Associates represents clients in all areas of Family Law including divorce, parental rights, post-judgment matters, preparation of prenuptial agreements and alternate dispute resolution. Centrally located in Lewiston, Maine, we practice in Androscoggin, Cumberland, Sagadahoc, Kennebec, Oxford and Franklin Counties, as well as other counties at our discretion. </p>
+        <p> Judith Andrucki formed this practice out of a desire to create a law firm dedicated to the practice of Family Law. The attorneys at Andrucki & Associates share the belief that family law cases, like families, are unique and require skill and attention. Given their experience, Andrucki & Associates provides in-depth and high quality service to individuals involved in domestic dispute. </p>
+        <div id="p7AP3_1" class="p7AP3-10 p7AP3">
+          <div class="p7AP3trig p7ap3-theme-10">
+            <h3><a href="#p7AP3c1_1" id="p7AP3t1_1">Who We Are</a></h3>
+          </div>
+          <div id="p7AP3w1_1" class="p7AP3cwrapper p7ap3-theme-10">
+            <div id="p7AP3c1_1" class="p7AP3content p7ap3-theme-10">
+              <div id="p7AP3p1_1" class="p7AP3panelcontent p7ap3-theme-10">
+                <div class="p7ap3-col-wrapper multi-columns">
+                  <div class="p7ap3-column width-33">
+                    <div class="p7ap3-column-content p7ehc-2">
+                      
+                        <div class="p-lead">Judith W. Andrucki</div>
+                  
+                      <p>Lorem ipsum dolor sit amet, ne sea vocent scripta abhorreant, facilisi explicari mel ne, ut quo vide ridens. Mei ex quodsi inciderint, quo ad quas deleniti definitionem, <br>
+                      <p><a class="btn" href="#">View details &raquo;</a></p>
+                      <p></p>
+                    </div>
+                  </div>
+                  <div class="p7ap3-column width-33">
+                    <div class="p7ap3-column-content border-left p7ehc-2">
+                      <div class="p-lead"> Mara R. King</div>
+                      <p>Lorem ipsum dolor sit amet, ne sea vocent scripta abhorreant, facilisi explicari mel ne, ut quo vide ridens. Mei ex quodsi inciderint, quo ad quas deleniti definitionem, <br>
+                      <p><a class="btn" href="#">View details &raquo;</a></p>
+                    </div>
+                  </div>
+                  <div class="p7ap3-column width-33">
+                    <div class="p7ap3-column-content border-left p7ehc-2">
+                      <div class="p-lead">Elyse B. Segovias</div>
+                      <p>Lorem ipsum dolor sit amet, ne sea vocent scripta abhorreant, facilisi explicari mel ne, ut quo vide ridens. Mei ex quodsi inciderint, quo ad quas deleniti definitionem, <br>
+                      <p><a class="btn" href="#">View details &raquo;</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--[if lte IE 7]><style>.p7AP3, .p7AP3cwrapper, .p7AP3panelcontent, .p7AP3trig a {zoom: 1;}</style><![endif]-->
+          <!--[if IE 5]><style>.p7AP3cwrapper {height: auto !important;}</style><![endif]-->
+          <script type="text/javascript">P7_opAP3('p7AP3_1',1,2,0,0,1,0,0,0,1,0,1000,250,1,1);</script>
+        </div>
+  
+      </div>
+    <!-- TemplateEndEditable --></div>
+    <!-- TemplateBeginEditable name="right-sidebar" -->
+    <div class="sidebar">
+      <div class="content p7ehc-1">
+        <div class="sidebarfixed">
+          <h2>Frequently Asked Questions</h2>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quisque congue tristique eros. Nulla facilisi. Quisque sem mauris, ullamcorper ac, gravida id, mattis id, sapien. <a href="#">Nullam adipiscing</a> enim dapibus felis. Fusce a nisi in odio pulvinar fringilla. Nunc blandit interdum metus.</p></div></div>
+    </div>
+    
+    <!-- TemplateEndEditable --></div><div class="totop">
+      <div id="backtotop">Scroll to Top</div>
+    </div>
+</div>
+<div class="footer">
+  <p>Home | Our Practice | Who We Are | Our Services | Referals	 | Awards &amp; Recognition | Location | <a href="../contact.php">Contact Us</a><br>
+      <span class="copyright">©2017 Andrucki Law Offices - All Rights Reserved</span><br>
+      179 Lisbon Street, Lewsiton, Maine 04243-7120 - Phone (207) 777- 4600</p>
+    <p><a href="#">Terms &amp; Conditions</a></p></div>
+</body>
+</html>

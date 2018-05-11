@@ -1,0 +1,407 @@
+/* 
+  -----------------------------------
+  PVII Pop Box Magic
+  by Project Seven Development
+  www.projectseven.com
+  Style Theme: 03 - Greystone
+  -----------------------------------
+*/
+
+/*Force Vertical Scrollbar in non-IE browsers*/
+html, body {height: 100.1%;}
+
+/*Font-Family for entire Lightshow*/
+.p7LSM04 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*ROOT WRAPPER DO NOT EDIT*/
+.p7LSM04 .p7LSM_wrapper {
+	position:relative;
+	overflow: hidden;
+}
+
+/*Styles for Popup Box for Text Content Slides*/
+#p7LSM_box.p7LSM04 {
+	background-color: #A2A2A2;
+}
+#p7LSM_box.p7LSM04 #p7LSM_cnt {
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 1.25em;
+	font-size: 0.8em;
+	line-height: 1.5em;
+	border: 1px solid #666666;
+}
+#p7LSM_box.p7LSM04 #p7LSM_cnt a, 
+#p7LSM_box.p7LSM04 #p7LSM_cnt a:visited {
+	color: #000000;
+}
+#p7LSM_box.p7LSM04 #p7LSM_cnt a:hover {
+	color: #ECEC00;
+	background-color: #000000;
+	text-decoration: none;
+}
+
+/*Popup Box: Set border around main box.*/
+.p7LSM04 #p7LSM_container {
+	padding: 0 15px 15px 15px;
+	overflow: hidden;
+	background-image: url(img/p7LSM04_gradient.jpg);
+	background-repeat: repeat-x;
+	border-top: 1px solid #EEEEEE;
+	border-right: 1px solid #909090;
+	border-bottom: 1px solid #909090;
+	border-left: 1px solid #EEEEEE;
+}
+/*Adjust padding if toolbar is hidden*/
+.p7LSM04 #p7LSM_container.hideToolbar {
+	padding: 15px;
+}
+/* The Animation box - Set Background Color ONLY */
+#p7lsm_abox.p7LSM04 {
+	background-color:#A2A2A2;
+}
+/* The page overlay - Edit existing properties: Opacity, Filter, and BG Color ONLY */
+#p7lsm_overlay.p7LSM04 {
+	opacity: .85;
+	filter: alpha(opacity=85);
+	background-color: #FFFFFF;
+}
+
+/*Description, Caption,  and Counter*/
+
+/*Hide Description and Links in Dreamweaver Design View*/
+.p7lsm_link, .p7lsm_description {display: none;}
+
+/*
+Wrapper for Description, Caption,  and Counter
+Padding matches the padding on the Full-Size image outer container.
+*/
+#p7LSM_box.p7LSM04 #p7LSM_info {
+	background-color: #A2A2A2;
+	font-size: 0.7em;
+	color: #000000;
+}
+/*Padding-Right matches the padding on the Full-Size image outer container.*/
+#p7LSM_box.p7LSM04 #p7LSM_desc {
+	zoom: 1;
+	padding: 3px 0 6px 0;
+	font-size: .9em;
+}
+#p7LSM_box.p7LSM04 #p7LSM_desc p {
+	margin: 6px 0 12px 0;
+}
+#p7LSM_box.p7LSM04 #p7LSM_desc a, 
+#p7LSM_box.p7LSM04 #p7LSM_desc a:visited,
+#p7LSM_descboxW.p7LSM04 a,
+#p7LSM_descboxW.p7LSM04 a:visited {
+	color: #FFFFFF;
+}
+#p7LSM_box.p7LSM04 #p7LSM_desc a:hover,
+#p7LSM_descboxW.p7LSM04 a:hover {
+	color: #CCCCCC;
+	text-decoration: none;
+	background-color: #000000;
+}
+
+#p7LSM_descboxW.p7LSM04 #p7LSM_descboxInner {
+	color: #FFFFFF;
+	background-color: #A2A2A2;
+	padding: 10px;
+	width: 220px;
+	background-image: url(img/p7LSM04_gradient.jpg);
+	background-repeat: repeat-x;
+	border-top: 1px solid #EEEEEE;
+	border-right: 1px solid #909090;
+	border-bottom: 1px solid #909090;
+	border-left: 1px solid #EEEEEE;
+}
+#p7LSM_descboxW.p7LSM04 #p7LSM_descbox {
+	color: #FFFFFF;
+	background-color: #A2A2A2;
+	padding: 20px;
+	font-size: 0.75em;
+	line-height: 1.5em;
+	border: 1px solid #666666;
+}
+/*Padding-Right matches the padding on the Full-Size image outer container.*/
+.p7LSM04 #p7LSM_caption {
+	zoom: 1;
+	font-size: 1em;
+	font-weight:bold;
+	padding: 8px 0 0 0;
+}
+/*Right value matches the padding on the Full-Size image outer container.*/
+#p7LSM_box.p7LSM04 #p7LSM_counter {
+	font-size: 0.9em;
+	padding: 3px 0 0 0;
+	zoom: 1;
+}
+/*Full-Size Image*/
+/*Full-Size Image Ineer Container (Hugs Image)*/
+.p7LSM04 #p7LSMfsim {
+	border: 1px solid #333;
+}
+
+/*Loading Image*/
+#p7LSM_loading {
+	display:none;
+	width:78px;
+	height:8px;
+	background-image: url(img/p7lsm_loading.gif);
+}
+
+/*Clear Floats*/
+.p7lsm_clearfloat {
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0px;
+}
+
+/*TOC and Help Popup Boxes*/
+/*Table of Contents and Help Popup Boxes Common Styles*/
+#p7LSM_tocbox.p7LSM04, #p7LSM_helpbox.p7LSM04 {
+	width:240px;
+	overflow:auto;
+	font-size: 0.75em;
+	color: #CCCCCC;
+	padding: 0;
+	background-image: url(img/p7LSM04_tocHelpbox.png);
+	border: 1px solid #000;
+}
+/*Help Box and TOC Box Closers*/
+#p7LSM_tocbox.p7LSM04 a, #p7LSM_helpbox.p7LSM04 a {
+	display: block;
+	padding: 6px 8px;
+	background-color: #A7A7A7;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+	background-image: url(img/p7LSM04_gradient.jpg);
+	background-repeat: repeat-x;
+}
+#p7LSM_tocbox.p7LSM04 a:hover, #p7LSM_helpbox.p7LSM04 a:hover {
+	background-color: #A2A2A2;
+	background-image: none;
+	color: #FFFFFF;
+}
+/*Help Popup Box specific styles*/
+#p7LSM_helpbox.p7LSM04 {
+	width:300px;
+}
+#p7LSM_helpbox.p7LSM04 ul {
+	margin: 8px 18px 18px 18px;
+	padding: 0;
+	list-style-type: none;
+}
+#p7LSM_helpbox.p7LSM04 p {
+	font-weight: bold;
+	margin: 0 0 14px 0;
+	letter-spacing: 0.2em;
+	padding: 8px 18px;
+}
+#p7LSM_helpbox.p7LSM04 li {
+	margin: 0 16px 6px 16px;
+}
+/*TOC Popup Box specific styles*/
+#p7LSM_tocbox.p7LSM04 ol {
+	margin-left: 1.2em;
+	padding-left: 1.2em;
+}
+#p7LSM_tocbox.p7LSM04 li {
+	margin: 0 16px 0px 16px;
+}
+#p7LSM_tocbox.p7LSM04 p {
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: 0.15em;
+	margin: 0;
+	padding: 6px 18px;
+}
+/*TOC Link Styles*/
+#p7LSM_tocbox.p7LSM04 ol a {
+	color: #999999;
+	padding: 3px 6px;
+	display: block;
+	background-color: transparent;
+	background-image: none;
+	font-weight: normal;
+}
+#p7LSM_tocbox.p7LSM04 ol a:hover {
+	color: #000000;
+	background-color: #999999;
+	text-decoration: none;
+}
+#p7LSM_tocbox.p7LSM04 ol a.down {
+	color: #FFFFFF;
+	background-color: #666666;
+	text-decoration: none;
+}
+/* Toolbar */
+.p7LSM04 #p7LSM_toolbar {
+	position: relative;
+	overflow:hidden;
+	padding: 0;
+	height: 36px;
+}
+.p7LSM04 #p7LSM_toolbar img {
+	border: 0;
+}
+.p7LSM04 #p7LSM_toolbar a {
+	background-repeat: no-repeat;
+	height: 36px;
+	display: block;
+}
+/*TOC Toolbar Icon*/
+.p7LSM04 #p7LSM_toolbartoc {
+	position: absolute;
+	top: 0;
+	left: 0px;
+}
+.p7LSM04 #p7LSM_toc {
+	background-image: url(img/p7LSM04_toc.jpg);
+	width: 28px;
+}
+/*VCR Controls*/
+#p7LSM_vcr ul li {
+	list-style-type: none;
+}
+.p7LSM04 #p7LSM_vcr {
+	margin: 0 auto;
+	width: 118px;
+}
+.p7LSM04 #p7LSM_vcr ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: block;
+}
+.p7LSM04 #p7LSM_vcr ul li {
+	float: left;
+	display: block;
+	list-style-type: none;
+}
+.p7LSM04 #p7LSM_first {
+	background-image: url(img/p7LSM04_first.jpg);
+	width: 28px;
+}
+.p7LSM04 #p7LSM_prev {
+	background-image: url(img/p7LSM04_prev.jpg);
+	width: 15px;
+}
+.p7LSM04 #p7LSM_toolbar .p7LSM_pause {
+	background-image: url(img/p7LSM04_pauseplay.jpg);
+	width: 32px;
+	background-position: 0px -72px;
+}
+.p7LSM04 #p7LSM_toolbar .p7LSM_play {
+	background-image: url(img/p7LSM04_pauseplay.jpg);
+	width: 32px;
+}
+.p7LSM04 #p7LSM_next {
+	background-image: url(img/p7LSM04_next.jpg);
+	width: 15px;
+}
+.p7LSM04 #p7LSM_last {
+	background-image: url(img/p7LSM04_last.jpg);
+	width: 28px;
+}
+/*HELP Toolbar Icon*/
+.p7LSM04 #p7LSM_toolbarhelp {
+	position: absolute;
+	top: 0px;
+	right: 25px;
+}
+.p7LSM04 #p7LSM_help {
+	background-image: url(img/p7LSM04_help.jpg);
+	width: 25px;
+}
+/*Close Toolbar Icon*/
+.p7LSM04 #p7LSM_toolbarclose {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.p7LSM04 #p7LSM_close {
+	background-image: url(img/p7LSM04_close.jpg);
+	width: 28px;
+}
+/*Toolbar Hovers and Utilities*/
+.p7LSM04 #p7LSM_toolbar a:hover, .p7LSM04 #p7LSM_toolbar a:focus, .p7LSM04 #p7LSM_toolbar a.down {
+	background-position: 0px -36px;
+}
+.p7LSM04 #p7LSM_toolbar .p7LSM_pause:hover,
+.p7LSM04 #p7LSM_toolbar .p7LSM_pause:focus {
+	background-position: 0px -108px;
+}
+.p7LSM04 #p7LSM_toolbar .p7LSM_play:hover,
+.p7LSM04 #p7LSM_toolbar .p7LSM_play:focus {
+	background-position: 0px -36px;
+}
+#p7LSM_toolbar i {
+	display: none;
+}
+
+/*Trigger Links*/
+.p7LSM04 .p7LSM_trigs {
+	padding: 0px;
+}
+.p7LSM04 .p7LSM_trigs img {
+	border: 0;
+	height: 50px;
+	width: 60px;
+}
+.p7LSM04 .p7LSM_trigs ul {
+	margin: 0px;
+	padding: 0px;
+}
+.p7LSM04 .p7LSM_trigs li {
+	float:left;
+	list-style-type: none;
+	padding: 3px;
+	border: 1px solid #000000;
+	margin-right:6px;
+	margin-bottom:6px;
+}
+.p7LSM04 .p7LSM_trigs li.over {
+	border-color: #000000;
+	background-color: #000000;
+
+}
+.p7LSM04 .p7LSM_trigs a {
+	display:block;
+	float:left;
+	z-index:1;
+	font-size: 0.9em;
+	border: 1px solid #000000;
+}
+.p7LSM04 .p7LSM_trigs a:hover {
+	border-color: #000000;
+}
+#p7LSM_ovr {
+	padding:4px;
+	background-color:#000000;
+	border: 1px solid #000;
+}
+/*Trigger links specific for text content slides*/
+.p7LSM04 .p7LSM_trigs .p7lsm_type_cnt, .p7LSM04 .p7LSM_trigs .p7lsm_type_ac {
+	width: 100px !important;
+	background-color: #1A1A1A;
+	text-decoration: none;
+	line-height: normal;
+	color: #999999 !important;
+	border-top: 1px solid #333333;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #333333;
+	height: 45px;
+	overflow: hidden;
+	padding: 5px;
+	padding-bottom: 0;
+}
+.p7LSM04 .p7LSM_trigs .p7lsm_type_cnt:hover, .p7LSM04 .p7LSM_trigs .p7lsm_type_ac:hover {
+	color: #000000 !important;
+	background-color: #CCCCCC;
+	border-color: #F0F0F0 #999999 #999999 #F0F0F0;
+}

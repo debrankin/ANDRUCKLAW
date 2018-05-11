@@ -1,0 +1,105 @@
+/* 
+  -----------------------------------
+  Accordion Panel Magic
+  by Project Seven Development
+  www.projectseven.com
+  Style Theme: 10 - Onyx
+  -----------------------------------
+*/
+
+.p7AP3-10 {
+	padding: 0;
+	margin: 0 auto;
+	width: auto;
+}
+.p7AP3:after {
+	content: ".";
+	font-size: 0px;
+	display: inline;
+	overflow: hidden;
+	line-height: 1;
+}
+.p7AP3trig.p7ap3-theme-10 {
+	margin: 4px 0px;
+	padding: 2px;
+	background-color: #FFF;
+	border-radius: 12px;
+	/*box-shadow: 0px 0px 2px #747171;
+	-webkit-box-shadow: 0px 0px 2px #747171;*/
+}
+.p7AP3trig.p7ap3-theme-10 h3, .p7AP3trig.p7ap3-theme-10 h4 {
+	margin: 0px;
+	padding: 0px;
+	letter-spacing: normal;
+	zoom: 1;
+	font-size: 1em;
+}
+.p7AP3trig.p7ap3-theme-10 a {
+	display: block;
+	text-decoration: none;
+	padding: 10px 20px;
+	color: #BBB;
+	font-weight: normal;
+	background-color: #984044;
+	border-radius: 10px;
+	background-image: url(img/p7ap3_east_gray.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	box-shadow: inset 0px 16px 16px rgba(255,255,255,.1);
+	-webkit-transition: all linear 0.15s 0.1s;
+	transition: all linear 0.15s 0.1s;
+}
+.p7AP3trig.p7ap3-theme-10 a.p7AP3_ext, .p7AP3trig.p7ap3-theme-10 a.p7AP3_ext.p7AP3trig_down {
+	color: #999;
+	letter-spacing: normal;
+	background-image: url(img/p7ap3_page_gray.gif);
+	background-position: 2px center;
+	box-shadow: none;
+}
+.p7AP3trig.p7ap3-theme-10 a:hover {
+	color: #FFF;
+	background-color: #BC6266;
+}
+.p7AP3trig.p7ap3-theme-10 a:focus {
+	outline: none;
+}
+.p7AP3trig.p7ap3-theme-10 .p7AP3trig_down, .p7AP3trig.p7ap3-theme-10 .p7AP3trig_down:hover  {
+	color: #FFF;
+	background-image: url(img/p7ap3_south_white.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-color: #984044;
+}
+.p7AP3cwrapper.p7ap3-theme-10 {
+	position: relative;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+.p7AP3panelcontent.p7ap3-theme-10 {
+	line-height: 1.5em;
+	background-color: #FAFBFC;
+	color: #000;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+}
+.p7AP3panelcontent.p7ap3-theme-10 h1,
+.p7AP3panelcontent.p7ap3-theme-10 h2,
+.p7AP3panelcontent.p7ap3-theme-10 h3,
+.p7AP3panelcontent.p7ap3-theme-10 h4 {
+	margin: 0px;
+}
+.p7AP3content.p7ap3-theme-10 p {
+	margin: 6px 0;
+}
+.p7AP3trig.p7ap3-theme-10 a.current_mark {
+	font-weight: bold;
+}
+.p7AP3trig.p7ap3-theme-10 a.p7AP3_ext.current_mark {
+	color: #FFF !important;
+	background-image: url(img/p7ap3_page_white.gif) !important;
+	background-repeat: no-repeat !important;
+	background-color: #666 !important;
+}
+.p7AP3panelcontent.p7ap3-theme-10 a.current_mark {
+	font-weight: bold;
+}

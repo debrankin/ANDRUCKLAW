@@ -1,0 +1,646 @@
+.JQuerySliderShow {
+  display: block;
+}
+.JQuerySliderHide {
+  display: none;
+}
+.JQSlider {
+  position: relative;
+  text-align: left;
+}
+/* reset slider inner li*/
+.JQSlider li li {
+  width: auto;
+  height: auto;
+  list-style-type: disc;
+  list-style-position: outside;
+  list-style-image: none;
+}
+/* content style start */
+#JQuerySlider2 .header {
+  background: none no-repeat left center scroll;
+  border-left: 0px none #0066cc;
+  border-top: 0px none #0066cc;
+  border-bottom: 0px none #0066cc;
+  border-right: 0px none #0066cc;
+  padding: 0px 0px 0px 0px;
+  color: #0f0f0f;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 100%;
+}
+#JQuerySlider2 .subheader {
+  background: none no-repeat left center scroll;
+  border-left: 0px none #0066cc;
+  border-top: 0px none #0066cc;
+  border-bottom: 0px none #0066cc;
+  border-right: 0px none #0066cc;
+  padding: 0px 0px 0px 0px;
+  color: #333333;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 100%;
+}
+#JQuerySlider2 .paragraph {
+  background: none no-repeat left center scroll;
+  border-left: 0px none #0066cc;
+  border-top: 0px none #0066cc;
+  border-bottom: 0px none #0066cc;
+  border-right: 0px none #0066cc;
+  padding: 0px 0px 0px 0px;
+  color: #FFFFFF;
+  text-align: left;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 100%;
+}
+/* content style end */
+/* content style end */
+#JQuerySlider2Container {
+  background: none no-repeat left top scroll;
+  font: normal normal normal 12px/100% Arial,Helvetica,sans-serif;
+  border-left: 1px solid #666666;
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #666666;
+  border-right: 1px solid #666666;
+  padding: 0px 0px 0px 0px;
+  position: relative;
+  color: #000000;
+  text-decoration: none;
+  text-align: left;
+  width: -2px;
+  height: -2px;
+}
+#JQuerySlider2 {
+  width: -2px;
+  height: -2px;
+}
+#JQuerySlider2 img {
+  border-left: 0 none #000000;
+  border-top: 0 none #000000;
+  border-bottom: 0 none #000000;
+  border-right: 0 none #000000;
+}
+#JQuerySlider2 ul, #JQuerySlider2 li {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  position: relative;
+  list-style-type: none;
+  list-style-position: outside;
+  list-style-image: none;
+}
+#JQuerySlider2 li {
+  width: -2px;
+  height: -2px;
+}
+/*	nav bar resets */
+#JQuerySlider2_navbar_in, #JQuerySlider2_navbar_in ul, #JQuerySlider2_navbar_in li {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  position: relative;
+  list-style-type: none;
+  list-style-position: outside;
+  list-style-image: none;
+  width: auto;
+  height: auto;
+}
+/*	nav bar container */
+#JQuerySlider2_navbar_in {
+  position: absolute;
+  top: auto;
+  left: 0px;
+}
+/*	nav bar container */
+#JQuerySlider2_navbar_in {
+  background: none no-repeat left top scroll;
+  border-left: 1px solid #666666;
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #666666;
+  border-right: 1px solid #666666;
+  padding: 0px 0px 0px 0px;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  left: 0px;
+  bottom: 0px;
+  right: auto;
+}
+/*	nav bar ul */
+#JQuerySlider2_navbar_in ul {
+  position: relative;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+}
+/*	nav bar element container */
+#JQuerySlider2_navbar_in li {
+  float: left;
+  padding-right: 0px;
+}
+/*	nav bar element normal state */
+#JQuerySlider2_navbar_in li a {
+  background: #ffffff none no-repeat left top scroll;
+  font: normal normal normal 12px/100% Arial,Helvetica,sans-serif;
+  border-left: 0px solid #000000;
+  border-top: 0px solid #000000;
+  border-bottom: 0px solid #000000;
+  border-right: 0px solid #000000;
+  padding: 3px 3px 3px 3px;
+  float: left;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  color: #666666;
+  text-decoration: none;
+  text-align: left;
+  text-transform: none;
+}
+#JQuerySlider2_navbar_in li a span {
+  font: normal normal normal 12px/100% Arial,Helvetica,sans-serif;
+  color: #000000;
+  text-decoration: none;
+  text-align: left;
+  text-transform: none;
+}
+#JQuerySlider2_navbar_in li a span.title {
+  font: normal normal bold 12px/100% Arial,Helvetica,sans-serif;
+  color: #000000;
+  text-decoration: none;
+  text-align: left;
+  text-transform: uppercase;
+}
+/*	nav bar element hover state */
+#JQuerySlider2_navbar_in li a.hover {
+  background: #cccccc none no-repeat left top scroll;
+  font: normal normal normal 12px/100% Arial,Helvetica,sans-serif;
+  border-left: 0px none transparent;
+  border-top: 0px none transparent;
+  border-bottom: 0px none transparent;
+  border-right: 0px none transparent;
+  margin: 0px 0px 0px 0px;
+  padding: 3px 3px 3px 3px;
+  float: left;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  color: #666666;
+  text-decoration: none;
+  text-align: left;
+  text-transform: none;
+}
+#JQuerySlider2_navbar_in li a.hover span {
+  font: normal normal normal 12px/100% Arial,Helvetica,sans-serif;
+  color: #000000;
+  text-decoration: none;
+  text-align: left;
+  text-transform: none;
+}
+#JQuerySlider2_navbar_in li a.hover span.title {
+  font: normal normal bold 12px/100% Arial,Helvetica,sans-serif;
+  color: #000000;
+  text-decoration: none;
+  text-align: left;
+  text-transform: uppercase;
+}
+/*	nav bar element active state */
+#JQuerySlider2_navbar_in li a.active {
+  background: #cccccc none no-repeat left top scroll;
+  font: normal normal normal 12px/100% Arial,Helvetica,sans-serif;
+  border-left: 0px none transparent;
+  border-top: 0px none transparent;
+  border-bottom: 0px none transparent;
+  border-right: 0px none transparent;
+  margin: 0px 0px 0px 0px;
+  padding: 3px 3px 3px 3px;
+  float: left;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+  color: #666666;
+  text-decoration: none;
+  text-align: left;
+  text-transform: none;
+}
+#JQuerySlider2_navbar_in li a.active span {
+  font: normal normal normal 12px/100% Arial,Helvetica,sans-serif;
+  color: #000000;
+  text-decoration: none;
+  text-align: left;
+  text-transform: none;
+}
+#JQuerySlider2_navbar_in li a.active span.title {
+  font: normal normal bold 12px/100% Arial,Helvetica,sans-serif;
+  color: #000000;
+  text-decoration: none;
+  text-align: left;
+  text-transform: uppercase;
+}
+/*	nav bar resets */
+#JQuerySlider2_numbers_in, #JQuerySlider2_numbers_in ul, #JQuerySlider2_numbers_in li {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  position: relative;
+  list-style-type: none;
+  list-style-position: outside;
+  list-style-image: none;
+  width: auto;
+  height: auto;
+}
+/*	nav bar container */
+#JQuerySlider2_numbers_in {
+  position: absolute;
+  top: auto;
+  left: auto;
+}
+/*	nav bar container */
+#JQuerySlider2_numbers_in {
+  background: none no-repeat left top scroll;
+  border-left: 0px none transparent;
+  border-top: 0px solid transparent;
+  border-bottom: 0px none transparent;
+  border-right: 0px none transparent;
+  padding: 0px 0px 0px 0px;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  left: auto;
+  bottom: 0px;
+  right: 0px;
+}
+/*	nav bar ul */
+#JQuerySlider2_numbers_in ul {
+  position: relative;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+}
+/*	nav bar element container */
+#JQuerySlider2_numbers_in li {
+  float: left;
+  padding-right: 0px;
+}
+/*	nav bar element normal state */
+#JQuerySlider2_numbers_in li a {
+  background: #cccccc none no-repeat left top scroll;
+  font: normal normal bold 12px/100% Arial,Helvetica,sans-serif;
+  border-left: 0px solid #000000;
+  border-top: 0px solid #000000;
+  border-bottom: 0px solid #000000;
+  border-right: 0px solid #000000;
+  padding: 6px 0px 0px 0px;
+  float: left;
+  width: 25px;
+  height: 17px;
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  text-transform: none;
+  left: 0px;
+  right: auto;
+  top: 0px;
+  bottom: auto;
+}
+#JQuerySlider2_numbers_in li a span {
+  font: normal normal normal 12px/100% Arial,Helvetica,sans-serif;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  text-transform: none;
+}
+/*	nav bar element hover state */
+#JQuerySlider2_numbers_in li a.hover {
+  background: #666666 none no-repeat left top scroll;
+  font: normal normal normal 12px/100% Arial,Helvetica,sans-serif;
+  border-left: 0px solid #000000;
+  border-top: 0px solid #000000;
+  border-bottom: 0px solid #000000;
+  border-right: 0px solid #000000;
+  padding: 6px 0px 0px 0px;
+  float: left;
+  width: 25px;
+  height: 17px;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  text-transform: none;
+}
+#JQuerySlider2_numbers_in li a.hover span {
+  font: normal normal normal 12px/100% Arial,Helvetica,sans-serif;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  text-transform: none;
+}
+/*	nav bar element active state */
+#JQuerySlider2_numbers_in li a.active {
+  background: #666666 none no-repeat left top scroll;
+  font: normal normal normal 12px/100% Arial,Helvetica,sans-serif;
+  border-left: 0px solid #000000;
+  border-top: 0px solid #000000;
+  border-bottom: 0px solid #000000;
+  border-right: 0px solid #000000;
+  padding: 6px 0px 0px 0px;
+  float: left;
+  width: 25px;
+  height: 17px;
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  text-transform: none;
+}
+#JQuerySlider2_numbers_in li a.active span {
+  font: normal normal normal 12px/100% Arial,Helvetica,sans-serif;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  text-transform: none;
+}
+#JQuerySlider2_numbers_in li a span.title {
+  text-align: center;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#JQuerySlider2_numbers_in li a.active span.title {
+  text-align: center;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#JQuerySlider2_numbers_in li a.hover span.title {
+  color: #ffffff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*	nav bar resets */
+#JQuerySlider2_bullets_in, #JQuerySlider2_bullets_in ul, #JQuerySlider2_bullets_in li {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  position: relative;
+  list-style-type: none;
+  list-style-position: outside;
+  list-style-image: none;
+  width: auto;
+  height: auto;
+}
+/*	nav bar container */
+#JQuerySlider2_bullets_in {
+  position: absolute;
+  top: auto;
+  left: auto;
+}
+/*	nav bar container */
+#JQuerySlider2_bullets_in {
+  background: none no-repeat left top scroll;
+  border-left: 0px none transparent;
+  border-top: 0px solid transparent;
+  border-bottom: 0px none transparent;
+  border-right: 0px none transparent;
+  padding: 0px 0px 0px 0px;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  right: 0px;
+  bottom: 30px;
+}
+/*	nav bar ul */
+#JQuerySlider2_bullets_in ul {
+  position: relative;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+}
+/*	nav bar element container */
+#JQuerySlider2_bullets_in li {
+  float: left;
+  padding-right: 0px;
+}
+/*	nav bar element normal state */
+#JQuerySlider2_bullets_in li a {
+  background: url('blank/default/item_navbar_up.png') no-repeat left top scroll;
+  font: normal normal normal 12px/100% Arial,Helvetica,sans-serif;
+  border-left: 0px solid #000000;
+  border-top: 0px solid #000000;
+  border-bottom: 0px solid #000000;
+  border-right: 0px solid #000000;
+  padding: 0px 0px 0px 0px;
+  float: left;
+  width: 25px;
+  height: 17px;
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+  text-align: left;
+  text-transform: none;
+}
+/*	nav bar element hover state */
+#JQuerySlider2_bullets_in li a.hover {
+  background: url('blank/default/item_navbar_over.png') no-repeat left top scroll;
+  font: normal normal normal 12px/100% Arial,Helvetica,sans-serif;
+  border-left: 0px solid #000000;
+  border-top: 0px solid #000000;
+  border-bottom: 0px solid #000000;
+  border-right: 0px solid #000000;
+  padding: 0px 0px 0px 0px;
+  float: left;
+  width: 25px;
+  height: 17px;
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+  text-align: left;
+  text-transform: none;
+}
+/*	nav bar element active state */
+#JQuerySlider2_bullets_in li a.active {
+  background: url('blank/default/item_navbar_down.png') no-repeat left top scroll;
+  font: normal normal normal 12px/100% Arial,Helvetica,sans-serif;
+  border-left: 0px solid #000000;
+  border-top: 0px solid #000000;
+  border-bottom: 0px solid #000000;
+  border-right: 0px solid #000000;
+  padding: 0px 0px 0px 0px;
+  float: left;
+  width: 25px;
+  height: 17px;
+  cursor: pointer;
+  color: #0000ff;
+  text-decoration: none;
+  text-align: left;
+  text-transform: none;
+}
+/*	inner back button positioning */
+#JQuerySlider2_back_in {
+  position: absolute;
+  top: 196.5px;
+  left: 0px;
+}
+/*	inner back button normal state */
+#JQuerySlider2_back_in {
+  background: #ffffff none no-repeat left top scroll;
+  font: normal normal normal 12px/100% "Arial Black",Gadget,sans-serif;
+  border-left: 0px solid #999999;
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #999999;
+  border-right: 1px solid #999999;
+  padding: 10px 0px 0px 0px;
+  width: 60px;
+  height: 25px;
+  cursor: pointer;
+  right: auto;
+  bottom: auto;
+  color: #666666;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*	inner back button hover state */
+#JQuerySlider2_back_in.hover {
+  background: #cccccc none no-repeat left top scroll;
+  font: normal normal normal 12px/100% "Arial Black",Gadget,sans-serif;
+  border-left: 0px solid #666666;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #666666;
+  border-right: 1px solid #666666;
+  padding: 10px 0px 0px 0px;
+  width: 60px;
+  height: 25px;
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*	inner next button positioning */
+#JQuerySlider2_next_in {
+  position: absolute;
+  top: 197.5px;
+  left: auto;
+}
+/*	inner next button normal state */
+#JQuerySlider2_next_in {
+  background: #ffffff none no-repeat left top scroll;
+  font: normal normal normal 12px/100% "Arial Black",Gadget,sans-serif;
+  border-left: 1px solid #666666;
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #666666;
+  border-right: 0px solid #666666;
+  padding: 10px 0px 0px 0px;
+  width: 60px;
+  height: 25px;
+  cursor: pointer;
+  right: 0px;
+  bottom: auto;
+  color: #666666;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*	inner next button hover state */
+#JQuerySlider2_next_in.hover {
+  background: #cccccc none no-repeat left top scroll;
+  font: normal normal normal 12px/100% "Arial Black",Gadget,sans-serif;
+  border-left: 1px solid #666666;
+  border-top: 1px solid #666666;
+  border-bottom: 1px solid #666666;
+  border-right: 0px solid #666666;
+  padding: 10px 0px 0px 0px;
+  width: 60px;
+  height: 25px;
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*	buttons container positioning*/
+#JQuerySlider2_playpause_in {
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: 5px;
+  right: 15px;
+  bottom: auto;
+}
+/* play/pause buttons common properties*/
+#JQuerySlider2_playpause_in div {
+  display: block;
+  cursor: pointer;
+  float: left;
+}
+/*	play button normal state */
+#JQuerySlider2_playpause_in div.play {
+  background: none no-repeat left top scroll;
+  font: normal normal bold 12px/100% Arial,Helvetica,sans-serif;
+  border-left: 0px solid #000000;
+  border-top: 0px solid #000000;
+  border-bottom: 0px solid #000000;
+  border-right: 0px solid #000000;
+  padding: 0px 0px 0px 0px;
+  width: 60px;
+  height: 20px;
+  cursor: pointer;
+  color: #666666;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*	play button hover state */
+#JQuerySlider2_playpause_in div.play.hover {
+  background: none no-repeat left top scroll;
+  font: normal normal bold 12px/100% Arial,Helvetica,sans-serif;
+  border-left: 0px solid #000000;
+  border-top: 0px solid #000000;
+  border-bottom: 0px solid #000000;
+  border-right: 0px solid #000000;
+  padding: 0px 0px 0px 0px;
+  width: 60px;
+  height: 20px;
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*	pause button normal state */
+#JQuerySlider2_playpause_in div.pause {
+  background: none no-repeat left top scroll;
+  font: normal normal bold 12px/100% Arial,Helvetica,sans-serif;
+  border-left: 0px solid #000000;
+  border-top: 0px solid #000000;
+  border-bottom: 0px solid #000000;
+  border-right: 0px solid #000000;
+  padding: 0px 0px 0px 0px;
+  width: 60px;
+  height: 20px;
+  cursor: pointer;
+  color: #666666;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  display: none;
+}
+/*	pause button hover state */
+#JQuerySlider2_playpause_in div.pause.hover {
+  background: none no-repeat left top scroll;
+  font: normal normal bold 12px/100% Arial,Helvetica,sans-serif;
+  border-left: 0px solid #000000;
+  border-top: 0px solid #000000;
+  border-bottom: 0px solid #000000;
+  border-right: 0px solid #000000;
+  padding: 0px 0px 0px 0px;
+  width: 60px;
+  height: 20px;
+  cursor: pointer;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+}

@@ -1,0 +1,27 @@
+body {
+	border-radius: 0px;
+}
+
+.LightBox2 #fancybox-outer {
+	position:relative;
+	-pie-poll:true;
+	border-radius: 5px 5px 5px 5px;
+
+}
+
+.LightBox2 #fancybox-content{
+	position:relative;
+    border-radius: 0px 0px 6px 6px;
+} 
+
+.LightBox2 .fancybox-title-outside {
+	position:relative;
+	border-radius: 0px 0px 6px 6px;
+}
+
+
+.LightBox2 #fancybox-outer{
+	-pie-background: rgba(0,0,0,0.2);
+}
+
+.LightBox2 img {-ms-interpolation-mode: bicubic;}

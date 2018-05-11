@@ -1,0 +1,139 @@
+/* 
+  -----------------------------------
+  Accordion Panel Magic
+  by Project Seven Development
+  www.projectseven.com
+  Style Theme: 13 - Anthracite
+  -----------------------------------
+*/
+
+.p7AP3-13 {
+	font-size: inherit;
+	margin: 0px auto;
+	width: auto;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-left: 2px;
+	padding-bottom: 2px;
+	border-radius: 6px;
+	box-shadow: 0px 0px;
+	-webkit-box-shadow: 0px 0px;
+	background-color: #858585;
+}
+.p7AP3:after {
+	content: ".";
+	font-size: 0px;
+	display: inline;
+	overflow: hidden;
+	line-height: 1;
+}
+.p7AP3trig.p7ap3-theme-13 {
+	margin: 0;
+	padding: 0;
+}
+.p7AP3trig.p7ap3-theme-13 h3, .p7AP3trig.p7ap3-theme-13 h4 {
+	margin: 0;
+	padding: 0;
+	letter-spacing: normal;
+	font-size: 1em;
+}
+.p7AP3trig.p7ap3-theme-13 a {
+	display: block;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 2px;
+	color: #E0E0E0;
+	background-color: #363636;
+	font-weight: normal;
+	background-image: url(img/p7ap3_east_gray.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #000;
+	-webkit-transition: all linear 0.15s 0.1s;
+	transition: all linear 0.15s 0.1s;
+}
+.p7AP3trig.p7ap3-theme-13 .p7AP3_ext, .p7AP3trig.p7ap3-theme-13 .p7AP3_ext.p7AP3trig_down {
+	background-image: url(img/p7ap3_page_gray.gif);
+	background-position: left center;
+	color: #999;
+	background-color: #333;
+	border-color: #4a4a4a #000 #000 #4a4a4a;
+}
+.p7AP3_ext:hover {
+	background-image: url(img/p7ap3_page_black.gif) !important;
+}
+.p7AP3trig.p7ap3-theme-13 a:hover {
+	color: #000;
+	background-color: #999;
+	box-shadow: inset 0px 16px 2px rgba(255,255,255,.125);
+	background-image: url(img/p7ap3_east_black.gif);
+}
+.p7AP3trig.p7ap3-theme-13 a:focus {}
+.p7AP3trig.p7ap3-theme-13 .p7AP3trig_down {
+	letter-spacing: 0.1em;
+	background-image: url(img/p7ap3_south_black.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-color: #999;
+	color: #000;
+	border-color: #999;
+	box-shadow: inset 0px 16px 2px rgba(255,255,255,.125);
+}
+.p7AP3trig.p7ap3-theme-13 .p7AP3trig_down:hover {
+	background-color: #999;
+	border-color: #999;
+}
+.p7ap3-theme-13 a.ap3first {
+	border-radius: 5px 5px 0px 0px;
+}
+.p7ap3-theme-13 a.ap3last {
+	border-radius: 0px 0px 5px 5px;
+}
+.p7ap3-theme-13 a.ap3first.ap3last {
+	border-radius: 5px 5px 5px 5px;
+}
+.p7ap3-theme-13 a.ap3last.p7AP3trig_down {
+	border-radius: 0px 0px 0px 0px;
+}
+.p7ap3-theme-13 a.ap3first.ap3last.p7AP3trig_down {
+	border-radius: 5px 5px 0px 0px;
+}
+.p7AP3cwrapper.p7ap3-theme-13 {
+	position: relative;
+	height: auto;
+}
+.p7AP3panelcontent.p7ap3-theme-13 {
+	line-height: 1.5em;
+	background-color: #FFF;
+	border-top: 1px solid #FFF;
+	/*box-shadow: inset 0px 0px 6px #DDDDDD;
+	color: #000;
+	-webkit-box-shadow: inset 0px 0px 6px #DDDDDD;*/
+}
+.p7AP3panelcontent.p7ap3-theme-13 h1,
+.p7AP3panelcontent.p7ap3-theme-13 h2,
+.p7AP3panelcontent.p7ap3-theme-13 h3,
+.p7AP3panelcontent.p7ap3-theme-13 h4 {
+	margin: 0px;
+}
+.p7AP3panelcontent.p7ap3-theme-13.panel_last {
+	border-radius: 0px 0px 5px 5px;
+}
+.p7AP3content.p7ap3-theme-13 p {
+	margin: 6px 0;
+}
+.p7AP3trig.p7ap3-theme-13 a.current_mark {
+	font-weight: bold;
+}
+.p7AP3trig.p7ap3-theme-13 .p7AP3_ext.current_mark {
+	color: #FFF !important;
+	background-image: url(img/p7ap3_page_white.gif) !important;
+	background-color: #333 !important;
+	border-color: #333 !important;
+}
+.p7AP3panelcontent.p7ap3-theme-13 a.current_mark {
+	font-weight: bold;
+}

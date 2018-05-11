@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ResponsiveSlides.js &middot; Responsive jQuery slideshow</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="ResponsiveSlides.js-master/responsiveslides.css">
+  <link rel="stylesheet" href="ResponsiveSlides.js-master/demo/demo.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="ResponsiveSlides.js-master/responsiveslides.min.js"></script>
+  <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        maxwidth: 800,
+        speed: 800
+      });
+
+      // Slideshow 2
+      $("#slider2").responsiveSlides({
+        auto: false,
+        pager: true,
+        speed: 300,
+        maxwidth: 540
+      });
+
+      // Slideshow 3
+      $("#slider3").responsiveSlides({
+        manualControls: '#slider3-pager',
+        maxwidth: 540
+      });
+
+      // Slideshow 4
+      $("#slider4").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        before: function () {
+          $('.events').append("<li>before event fired.</li>");
+        },
+        after: function () {
+          $('.events').append("<li>after event fired.</li>");
+        }
+      });
+
+    });
+  </script>
+</head>
+<body>
+
+    <h1>ResponsiveSlides.js</h1>
+    <h2>Simple &amp; lightweight responsive slideshow plugin (in 1kb)</h2>
+
+
+
+    <!-- Slideshow 1 -->
+    <ul class="rslides" id="slider1">
+      <li><img src="ResponsiveSlides.js-master/demo/images/1.jpg" alt=""></li>
+      <li><img src="ResponsiveSlides.js-master/demo/images/2.jpg" alt=""></li>
+      <li><img src="ResponsiveSlides.js-master/demo/images/3.jpg" alt=""></li>
+    </ul>
+
+</body>
+</html>

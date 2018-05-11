@@ -1,0 +1,140 @@
+/* 
+  -----------------------------------
+  Accordion Panel Magic
+  by Project Seven Development
+  www.projectseven.com
+  Style Theme: 01 - Basic
+  -----------------------------------
+*/
+
+.p7AP3-01 {
+	padding: 0px;
+	margin: 0 auto;
+	width: auto;
+}
+.p7AP3:after {
+	content: "\0020";
+	font-size: 0px;
+	display: inline;
+	overflow: hidden;
+	line-height: 1;
+}
+.p7AP3trig.p7ap3-theme-01 {
+	margin: 2px 0px;
+}
+.p7AP3trig.p7ap3-theme-01 h3, .p7AP3trig.p7ap3-theme-01 h4 {
+	margin: 0;
+	padding: 0;
+	letter-spacing: normal;
+	font-size: 1em;
+}
+.p7AP3trig.p7ap3-theme-01 a {
+	display: block;
+	text-decoration: none;
+	padding: 10px 20px;
+	background-color: #FFF;
+	color: #000;
+	background-image: url(img/p7ap3Plus_black.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	border: 1px solid #000;
+	font-weight: normal;
+	box-shadow: inset 0px 16px 20px rgba(255,255,255,.1);
+}
+.p7AP3trig.p7ap3-theme-01 .p7AP3_ext, .p7AP3trig.p7ap3-theme-01 .p7AP3_ext.p7AP3trig_down {
+	background-image: url(img/p7ap3_page_black.gif);
+	background-color: #FFF;
+	letter-spacing: normal;
+	color: #000;
+}
+.p7AP3trig.p7ap3-theme-01 .p7AP3_ext:hover {
+	background-image: url(img/p7ap3_page_white.gif);
+}
+.p7AP3trig.p7ap3-theme-01 a:hover {
+	color: #FFF;
+	background-color: #0070DF;
+	background-image: url(img/p7ap3Plus_white.gif);
+}
+.p7AP3trig.p7ap3-theme-01 a:focus {}
+.p7AP3trig.p7ap3-theme-01 .p7AP3trig_down, .p7AP3trig.p7ap3-theme-01 .p7AP3trig_down:hover {
+	background-image: url(img/p7ap3Minus_white.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-color: #0070DF;
+	color: #FFF;
+}
+.p7AP3trig.p7ap3-theme-01 .p7AP3trig_down:hover {}
+.p7AP3cwrapper.p7ap3-theme-01 {
+	position: relative;
+	top: -2px;
+}
+.p7AP3panelcontent.p7ap3-theme-01 {
+	line-height: 1.5em;
+	color: #000;
+	border: 1px solid #000;
+	border-top: none;
+}
+.p7AP3panelcontent.p7ap3-theme-01 h1,
+.p7AP3panelcontent.p7ap3-theme-01 h2,
+.p7AP3panelcontent.p7ap3-theme-01 h3,
+.p7AP3panelcontent.p7ap3-theme-01 h4 {
+	margin: 0px;
+}
+.p7AP3content.p7ap3-theme-01 p {
+	margin: 6px 0;
+}
+.p7AP3trig.p7ap3-theme-01 a.current_mark {
+	font-weight: bold;
+}
+.p7AP3trig.p7ap3-theme-01 a.p7AP3_ext.current_mark, .p7AP3trig.p7ap3-theme-01 a.p7AP3_ext.current_mark:hover {
+	background-image: url(img/p7ap3_page_black.gif) !important;
+	background-color: #FFF !important;
+	color: #000 !important;
+}
+.p7AP3panelcontent.p7ap3-theme-01 .current_mark {
+	font-weight: bold;
+}
+
+.p7AP3-01.responsive .ap3-toolbar {
+	display: none;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 700px) {
+.p7AP3-01.responsive .ap3-toolbar {
+	display: block;
+	background-color: #222;
+	padding: 5px 10px;
+	text-align: right;
+	cursor: pointer;
+}
+.p7AP3-01.responsive .ap3-toolbar a {
+	font-size: 2em;
+	font-weight: bold;
+	color: #999;
+	text-decoration: none;
+}
+.p7AP3-01.responsive .ap3-toolbar a:hover {
+	color: #FFF;
+}
+.responsive .toggle-text a:before {
+	position: relative;
+	top: -.25em;
+}
+.p7AP3-01.responsive .toggle-text.closed a:before {
+	content: "Show Menu \0020";
+	font-size: .5em;
+}
+.p7AP3-01.responsive .toggle-text.opened a:before {
+	content: "Hide Menu \0020";
+	font-size: .5em;
+}
+.p7AP3root-wrapper.closed {
+	height: 0px;
+	overflow:hidden;	
+}
+.p7AP3root-wrapper.opened {
+	height: auto;
+	overflow: hidden;	
+}
+
+}

@@ -1,0 +1,1 @@
+{"main_button_up":"#0066cc","main_item_down":"#0066cc","color1":"#3366ff","main_item_up":"#000000","main_button_over":"#cccccc","color2":"#66ccff","main_item_over":"#cccccc"}

@@ -1,0 +1,1 @@
+{"JQuerySlider1":{"urls":["photos.html"]},"JQuerySlider2":{"urls":["rotate.php"]}}

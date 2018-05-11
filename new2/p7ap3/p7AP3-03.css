@@ -1,0 +1,106 @@
+/* 
+  -----------------------------------
+  Accordion Panel Magic
+  by Project Seven Development
+  www.projectseven.com
+  Style Theme: 03 - Greystone
+  -----------------------------------
+*/
+
+.p7AP3-03 {
+	background-color: #BF4F54;
+	padding-top: 4px;
+	padding-right: 4px;
+	padding-left: 4px;
+	padding-bottom: 4px;
+	margin: 0 auto;
+	width: auto;
+	border-radius: 12px;
+}
+.p7AP3:after {
+	content: ".";
+	font-size: 0px;
+	display: inline;
+	overflow: hidden;
+	line-height: 1;
+}
+.p7AP3trig.p7ap3-theme-03 {
+	margin: 0;
+	padding: 0;
+	background-color: #D4D4D4;
+	border-radius: 12px;
+}
+.p7AP3trig.p7ap3-theme-03 h3, .p7AP3trig.p7ap3-theme-03 h4 {
+	margin: 0;
+	padding: 0;
+	letter-spacing: normal;
+	font-size: 1em;
+	border-radius: 12px;
+}
+.p7AP3trig.p7ap3-theme-03 a {
+	display: block;
+	text-decoration: none;
+	padding: 10px 20px;
+	color: #333;
+	font-weight: normal;
+	background-image: url(img/p7ap3_east_black.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	box-shadow: inset 0px 10px 16px rgba(255,255,255,.1);
+	-webkit-transition: all linear 0.15s 0.1s;
+	transition: all linear 0.15s 0.1s;
+}
+.p7AP3trig.p7ap3-theme-03 .p7AP3_ext, .p7AP3trig.p7ap3-theme-03 .p7AP3_ext.p7AP3trig_down {
+	background-image: url(img/p7ap3_page_black.gif);
+	background-color: transparent;
+	color: #333;
+	letter-spacing: 0.1em;
+}
+.p7AP3trig.p7ap3-theme-03 .p7AP3_ext:hover {
+	background-image: url(img/p7ap3_page_gray.gif) !important;
+}
+.p7AP3trig.p7ap3-theme-03 a:hover {
+	color: #000;
+	background-color: #F1F1F1;
+	background-image: url(img/p7ap3_east_gray.gif);
+	border-radius: 12px;
+}
+.p7AP3trig.p7ap3-theme-03 a:focus {}
+.p7AP3trig.p7ap3-theme-03 .p7AP3trig_down, .p7AP3trig.p7ap3-theme-03 .p7AP3trig_down:hover {
+	letter-spacing: 0.1em;
+	background-image: url(img/p7ap3_south_gray.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-color: #7BA4C1;
+	color: #FFF;
+	border-radius: 12px 12px 0px 0px;
+}
+.p7AP3trig.p7ap3-theme-03 .p7AP3trig_down:hover {
+	color: #FFF;
+	border-radius: 12px 12px 0px 0px;
+}
+.p7AP3cwrapper.p7ap3-theme-03 {
+	position: relative;
+}
+.p7AP3panelcontent.p7ap3-theme-03 {
+	line-height: 1.5em;
+	background-image: url(img/p7ap3_bevel_white.jpg);
+	background-repeat: repeat-x;
+	background-color: #FFF;
+	color: #000;
+}
+.p7AP3panelcontent.p7ap3-theme-03 h1,
+.p7AP3panelcontent.p7ap3-theme-03 h2,
+.p7AP3panelcontent.p7ap3-theme-03 h3,
+.p7AP3panelcontent.p7ap3-theme-03 h4 {
+	margin: 0px;
+}
+.p7AP3content.p7ap3-theme-03 p {
+	margin: 6px 0;
+}
+.p7AP3trig.p7ap3-theme-03 a.current_mark, .p7AP3trig.p7ap3-theme-03 a.current_mark:hover {
+	font-weight: bold;
+}
+.p7AP3panelcontent.p7ap3-theme-03 .current_mark {
+	font-weight: bold;
+}

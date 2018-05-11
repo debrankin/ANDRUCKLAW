@@ -1,0 +1,11 @@
+body {
+	border-radius: 0px;
+}
+.LightBox6 #fancybox-content{
+	position:relative;
+    -pie-poll:true;
+} 
+
+.LightBox6 img {-ms-interpolation-mode: bicubic;}
+
+

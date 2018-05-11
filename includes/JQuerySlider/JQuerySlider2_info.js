@@ -1,0 +1,1 @@
+{"skin":"blank","colorscheme":"default","isCustomSkin":false,"bgType":"normal"}

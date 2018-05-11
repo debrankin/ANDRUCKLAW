@@ -1,0 +1,398 @@
+/* 
+  -----------------------------------
+  PVII Pop Box Magic
+  by Project Seven Development
+  www.projectseven.com
+  Style Theme: 01 - Ivory
+  -----------------------------------
+*/
+
+/*Force Vertical Scrollbar in non-IE browsers*/
+html, body {
+	height: 100.1%;
+}
+
+/*Font-Family for entire Lightshow*/
+.p7LSM01 {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 0%;
+}
+
+/*ROOT WRAPPER DO NOT EDIT*/
+.p7LSM01 .p7LSM_wrapper {
+	position: relative;
+	overflow: hidden;
+}
+
+/*Styles for Popup Box for Text Content Slides*/
+#p7LSM_box.p7LSM01 #p7LSM_cnt {
+	background-color: #000000;
+	color: #CCCCCC;
+	padding: 1.25em;
+	font-size: 0.8em;
+	line-height: 1.5em;
+	border: 1px solid #000000;
+}
+#p7LSM_box.p7LSM01 #p7LSM_cnt a, 
+#p7LSM_box.p7LSM01 #p7LSM_cnt a:visited {
+	color: #CCCCCC;
+}
+#p7LSM_box.p7LSM01 #p7LSM_cnt a:hover {
+	color: #3399FF;
+}
+/*Popup Box: Set border around main box*/
+.p7LSM01 #p7LSM_container {
+	padding: 0 15px 15px 15px;
+	background-image: url(img/p7LSM01_gradient.jpg);
+	background-repeat: repeat-x;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #FFFFFF;
+}
+/*Adjust padding if toolbar is hidden*/
+.p7LSM01 #p7LSM_container.hideToolbar {
+	padding: 15px;
+	background-image: none !important;
+}
+/* The Animation box - Set Background Color ONLY */
+#p7lsm_abox.p7LSM01 {
+	background-color:#FFFFFF;
+	background-image: url(img/p7LSM01_abox.jpg);
+}
+#p7LSM_box.p7LSM01 #p7LSM_desc a:hover,
+#p7LSM_descboxW.p7LSM01 a:hover {
+	color: #CCCCCC;
+	text-decoration: none;
+	background-color: #000000;
+}
+/* The page overlay - Edit existing properties: Opacity, Filter, and BG Color ONLY */
+#p7lsm_overlay.p7LSM01 {
+	opacity: .80;
+	filter: alpha(opacity=80);
+	background-color: #666666;
+}
+
+/*Description, Caption,  and Counter*/
+
+/*Hide Description and Links in Dreamweaver Design View*/
+.p7lsm_link, .p7lsm_description {display: none;}
+
+/*
+Wrapper for Description, Caption,  and Counter
+*/
+#p7LSM_box.p7LSM01 #p7LSM_info {
+	padding: 0;
+	background-color: #FFFFFF;
+	font-size: 0.7em;
+	color: #000000;
+}
+/*Padding-Right matches the padding on the Full-Size image outer container.*/
+#p7LSM_box.p7LSM01 #p7LSM_desc {
+	padding: 3px 0 6px 0;
+	zoom: 1;
+	font-size: .9em;
+}
+#p7LSM_box.p7LSM01 #p7LSM_desc p {
+	margin: 6px 0 12px 0;
+}
+#p7LSM_box.p7LSM01 #p7LSM_desc a, 
+#p7LSM_box.p7LSM01 #p7LSM_desc a:visited,
+#p7LSM_descboxW.p7LSM01 a,
+#p7LSM_descboxW.p7LSM01 a:visited {
+	color: #0099FF;
+}
+
+#p7LSM_descboxW.p7LSM01 #p7LSM_descboxInner {
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #FFFFFF;
+	width: 220px;
+}
+#p7LSM_descboxW.p7LSM01 #p7LSM_descbox {
+	color: #999999;
+	padding: 20px;
+	font-size: 0.75em;
+	line-height: 1.5em;
+	background-color: #000000;
+	border: 10px solid #FFFFFF;
+}
+/*Padding-Right matches the padding on the Full-Size image outer container.*/
+.p7LSM01 #p7LSM_caption {
+	font-size: 1em;
+	font-weight:bold;
+	color: #000000;
+	padding: 8px 0 0 0;
+	zoom: 1;
+}
+#p7LSM_box.p7LSM01 #p7LSM_counter {
+	font-size: 0.9em;
+	padding: 3px 0 0 0;
+	zoom: 1;
+}
+/*Full-Size Image*/
+/*Full-Size Image Ineer Container (Hugs Image)*/
+#p7LSMfsim {border: 1px solid #000;}
+
+/*Loading Image*/
+#p7LSM_loading {
+	display:none;
+	width:78px;
+	height:8px;
+	background-image: url(img/p7lsm_loading.gif);
+}
+
+/*Clear Floats*/
+.p7lsm_clearfloat {
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0px;
+}
+
+/*TOC and Help Popup Boxes*/
+/*Table of Contents and Help Popup Boxes Common Styles*/
+#p7LSM_tocbox.p7LSM01, #p7LSM_helpbox.p7LSM01 {
+	width:240px;
+	overflow:auto;
+	font-size: 0.75em;
+	color: #000000;
+	padding: 0;
+	background-image: url(img/p7LSM01_tocHelpbox.png);
+	border: 4px solid #FFFFFF;
+}
+/*Help Box and TOC Box Closers*/
+#p7LSM_tocbox.p7LSM01 a, #p7LSM_helpbox.p7LSM01 a {
+	display: block;
+	padding: 3px 6px;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-weight: bold;
+	text-decoration: none;
+}
+#p7LSM_tocbox.p7LSM01 a:hover, #p7LSM_helpbox.p7LSM01 a:hover {
+	background-color: #757575;
+	color: #FFFFFF;
+}
+/*Help Popup Box specific styles*/
+#p7LSM_helpbox.p7LSM01 {
+	width:300px;
+}
+#p7LSM_helpbox.p7LSM01 ul {
+	margin: 8px 18px 18px 18px;
+	padding: 0;
+	list-style-type: none;
+}
+#p7LSM_helpbox.p7LSM01 p {
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0 0 14px 0;
+	color: #000000;
+	letter-spacing: 0.2em;
+	padding: 8px 18px;
+}
+#p7LSM_helpbox.p7LSM01 li {
+	margin: 0 16px 6px 16px;
+}
+/*TOC Popup Box specific styles*/
+#p7LSM_tocbox.p7LSM01 ol {
+	margin-left: 1.2em;
+	padding-left: 1.2em;
+}
+#p7LSM_tocbox.p7LSM01 li {
+	margin: 0 16px 0px 16px;
+}
+#p7LSM_tocbox.p7LSM01 p {
+	font-size: 1em;
+	font-weight: bold;
+	letter-spacing: 0.15em;
+	margin: 0;
+	padding: 6px 18px;
+}
+/*TOC Link Styles*/
+#p7LSM_tocbox.p7LSM01 ol a {
+	color: #000000;
+	padding: 3px 6px;
+	display: block;
+	background-color: transparent;
+}
+#p7LSM_tocbox.p7LSM01 ol a:hover {
+	color: #FFFFFF;
+	background-color: #666666;
+	text-decoration: none;
+}
+#p7LSM_tocbox.p7LSM01 ol a.down {
+	color: #999999;
+	background-color: #000000;
+	text-decoration: none;
+}
+/* Toolbar */
+.p7LSM01 #p7LSM_toolbar {
+	position: relative;
+	overflow:hidden;
+	padding: 0;
+	height: 30px;
+}
+.p7LSM01 #p7LSM_toolbar img {
+	border: 0;
+}
+.p7LSM01 #p7LSM_toolbar a {
+	background-repeat: no-repeat;
+	height: 30px;
+	display: block;
+}
+/*TOC Toolbar Icon*/
+.p7LSM01 #p7LSM_toolbartoc {
+	position: absolute;
+	top: 0;
+	left: 0px;
+}
+.p7LSM01 #p7LSM_toc {
+	background-image: url(img/p7LSM01_toc.jpg);
+	width: 30px;
+}
+/*VCR Controls*/
+#p7LSM_vcr ul li {
+	list-style-type: none;
+}
+.p7LSM01 #p7LSM_vcr {
+	margin: 0 auto;
+	width: 100px;
+}
+.p7LSM01 #p7LSM_vcr ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: block;
+}
+.p7LSM01 #p7LSM_vcr ul li {
+	float: left;
+	display: block;
+	list-style-type: none;
+}
+.p7LSM01 #p7LSM_first {
+	background-image: url(img/p7LSM01_first.jpg);
+	width: 20px;
+}
+.p7LSM01 #p7LSM_prev {
+	background-image: url(img/p7LSM01_prev.jpg);
+	width: 20px;
+}
+.p7LSM01 #p7LSM_toolbar .p7LSM_pause {
+	background-image: url(img/p7LSM01_pauseplay.jpg);
+	width: 20px;
+	background-position: 0px -60px;
+}
+.p7LSM01 #p7LSM_toolbar .p7LSM_play {
+	background-image: url(img/p7LSM01_pauseplay.jpg);
+	width: 20px;
+}
+.p7LSM01 #p7LSM_next {
+	background-image: url(img/p7LSM01_next.jpg);
+	width: 20px;
+}
+.p7LSM01 #p7LSM_last {
+	background-image: url(img/p7LSM01_last.jpg);
+	width: 20px;
+}
+/*HELP Toolbar Icon*/
+.p7LSM01 #p7LSM_toolbarhelp {
+	position: absolute;
+	top: 0px;
+	right: 26px;
+}
+.p7LSM01 #p7LSM_help {
+	background-image: url(img/p7LSM01_help.jpg);
+	width: 25px;
+}
+/*Close Toolbar Icon*/
+.p7LSM01 #p7LSM_toolbarclose {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.p7LSM01 #p7LSM_close {
+	background-image: url(img/p7LSM01_close.jpg);
+	width: 29px;
+}
+/*Toolbar Hovers and Utilities*/
+.p7LSM01 #p7LSM_toolbar a:hover, .p7LSM01 #p7LSM_toolbar a:focus, .p7LSM01 #p7LSM_toolbar a.down {
+	background-position: 0px -30px;
+}
+.p7LSM01 #p7LSM_toolbar .p7LSM_pause:hover,
+.p7LSM01 #p7LSM_toolbar .p7LSM_pause:focus {
+	background-position: 0px -90px;
+}
+.p7LSM01 #p7LSM_toolbar .p7LSM_play:hover,
+.p7LSM01 #p7LSM_toolbar .p7LSM_play:focus {
+	background-position: 0px -30px;
+}
+#p7LSM_toolbar i {
+	display: none;
+}
+
+/*Trigger Links*/
+.p7LSM01 .p7LSM_trigs {
+	padding: 0px;
+}
+.p7LSM01 .p7LSM_trigs img {
+	border: 0;
+	height: 50px;
+	width: 60px;
+}
+.p7LSM01 .p7LSM_trigs ul {
+	margin: 0px;
+	padding: 0px;
+}
+.p7LSM01 .p7LSM_trigs li {
+	float:left;
+	list-style-type: none;
+	padding: 3px;
+	border: 1px solid #444444;
+	margin-right:6px;
+	margin-bottom:6px;
+}
+.p7LSM01 .p7LSM_trigs li.over {
+	border-color: #444444;
+	background-color: #000000;
+
+}
+.p7LSM01 .p7LSM_trigs a {
+	display:block;
+	float:left;
+	z-index:1;
+	font-size: 0.9em;
+	border: 1px solid #333333;
+}
+.p7LSM01 .p7LSM_trigs a:hover {
+	border-color: #FFFFFF;
+}
+#p7LSM_ovr {
+	padding:4px;
+	background-color:#333333;
+	border: 1px solid #333333;
+}
+/*Trigger links specific for text content slides*/
+.p7LSM01 .p7LSM_trigs .p7lsm_type_cnt, .p7LSM01 .p7LSM_trigs .p7lsm_type_ac {
+	width: 400px !important;
+	background-color: #1A1A1A;
+	text-decoration: none;
+	line-height: normal;
+	color: #EEEEEE !important;
+	border-top: 1px solid #333333;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	border-left: 1px solid #333333;
+	overflow: hidden;
+	padding: 5px;
+	padding-bottom: 0;
+	font-size: 16px;
+}
+.p7LSM01 .p7LSM_trigs .p7lsm_type_cnt:hover, .p7LSM01 .p7LSM_trigs .p7lsm_type_ac:hover {
+	color: #000000 !important;
+	background-color: #CCCCCC;
+	border-color: #F0F0F0 #999999 #999999 #F0F0F0;
+}

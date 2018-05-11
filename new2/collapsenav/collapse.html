@@ -1,0 +1,96 @@
+<!Doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+  <title>Scrollable: Dynamic Menus</title>
+
+  <script src="jquery.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+  <script src="jquery-ui-scrollable.js"></script>
+
+
+</head>
+<body>
+
+<div class="menu">
+
+   <nav class="navbar navbar-inverse navbar-fixed-top">
+      <ul class="nav navbar-nav nav-main">
+        <li class="active"><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
+      </ul>
+   </nav>
+
+  <nav class="navbar navbar-default navbar-static-top" style="margin-top: 50px; ">
+      <div class="navbar-form navbar-left nav-search" style="top: 0; width: 50%; z-index: 2000;">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">Go!</button>
+          </span>
+        </div>
+      </div>
+   </nav>
+
+</div>
+
+<p>
+  <!--<a href="https://github.com/bseth99/jquery-ui-scrollable"><img style="position: fixed; top: 0; right: 0; border: 0; z-index: 2000;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+<div style="height: 2000px;">
+</div>-->
+asdf</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp; </p>
+
+<script>
+$(function () {
+   $search = $( '.nav-search' );
+
+   $('.menu')
+      .on('scrollin', function ( e, ui) {
+
+            $search.css({
+                position: 'absolute',
+                left: '0',
+                width: '50%'
+            }).parent().css( 'position', 'relative' );
+
+         })
+      .on('scrollout', function ( e, ui) {
+
+            $search.css({
+                position: 'fixed',
+                left: '230px',
+                width: '30%'
+            }).parent().css(  'position', 'static' );
+
+         })
+      .scrollable({ offset: { top: 50 } });
+
+});
+</script>
+</body>
+</html>
